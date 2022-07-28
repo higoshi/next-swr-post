@@ -2,7 +2,7 @@ import React from 'react';
 import { NextPage } from 'next';
 import { useUsername } from '@/lib/hooks/useUsername';
 
-const ProfilePage: NextPage = () => {
+const profilePage: NextPage = () => {
   const {username, setUsername} = useUsername();
   const [newUsername, setNewusername] = React.useState('');
 
@@ -28,4 +28,4 @@ const ProfilePage: NextPage = () => {
   </>
 };
 
-export default ProfilePage;
+export default profilePage;
