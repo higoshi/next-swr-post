@@ -1,7 +1,8 @@
 {
   "scripts": {
     "dev": "next",
-    "lint": "next lint"
+    "lint": "next lint",
+    "fix": "next lint --fix"
   },
   "dependencies": {
     "next": "^12.2.3",
