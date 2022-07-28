@@ -12,6 +12,8 @@ const usernameApi: NextApiHandler = (req, res) => {
         const username = JSON.parse(req.body);
         if (typeof username === 'string') {
           stateUsername = username;
+          res.status(200);
+          res.send('ok');
         } else throw 'invalid body';
       } catch (e) {
         res.status(400);
