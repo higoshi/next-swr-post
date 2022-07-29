@@ -1,6 +1,11 @@
 # next-swr-request-demo
 
-useSWRを使用してNext.jsのAPIにGET/POSTするデモアプリケーションです。
+[useSWR](https://swr.vercel.app/)を使用してNext.jsのAPIにGET/POSTするデモアプリケーションです。
+
+* [APIの実装](./pages/api/username.ts)
+* [Hooksの実装](./lib/hooks/useUsername.ts)
+* [Hooksの利用](./pages/profile.tsx)
+
 
 ## Install
 
