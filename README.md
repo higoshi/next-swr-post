@@ -1,6 +1,6 @@
 # next-swr-request-demo
 
-Next.jsのAPIに、SWRを使用してデータをPOSTするデモアプリケーションです。
+useSWRを使用してNext.jsのAPIにGET/POSTするデモアプリケーションです。
 
 ## Install
 
