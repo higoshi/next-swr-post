@@ -1,4 +1,4 @@
-# next-swr-post-demo
+# next-swr-request-demo
 
 Next.jsのAPIに、SWRを使用してデータをPOSTするデモアプリケーションです。
 
