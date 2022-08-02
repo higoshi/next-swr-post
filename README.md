@@ -1,5 +1,7 @@
 # next-swr-request-demo
 
+[![Code Style: Google](https://img.shields.io/badge/code%20style-google-blueviolet.svg)](https://github.com/google/gts)
+
 [useSWR](https://swr.vercel.app/)を使用してNext.jsのAPIにGET/POSTするデモアプリケーションです。
 
 * 基本
