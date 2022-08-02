@@ -1,4 +1,4 @@
-import { NextApiHandler } from 'next';
+import {NextApiHandler} from 'next';
 
 let stateUsername = '';
 

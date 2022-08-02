@@ -1,11 +1,9 @@
 import useSWR from 'swr';
 
 export const useUsername = () => {
-  const {
-    data,
-    error,
-    mutate,
-  } = useSWR<string>('/api/username', url => fetch(url).then(res => res.json()));
+  const {data, error, mutate} = useSWR<string>('/api/username', url =>
+    fetch(url).then(res => res.json())
+  );
 
   return {
     username: data,
